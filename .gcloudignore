@@ -1,0 +1,9 @@
+.gcloudignore
+.git
+.gitignore
+
+# PHP Composer
+composer.lock
+/vendor/
+
+
