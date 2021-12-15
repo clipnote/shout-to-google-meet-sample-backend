@@ -4,3 +4,6 @@ runtime: php74
 handlers:
 - url: /.*
   script: index.php
+ 
+includes:
+- secret.yaml
