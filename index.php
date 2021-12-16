@@ -14,7 +14,5 @@ try {
 	$pusher = new Pusher\Pusher($app_key, $app_secret, $app_id, ['cluster' => $app_cluster]);
 	$pusher->trigger('my-channel', 'comment_post', $result);
 } catch (Expeption $e) {
-	return $e;
+	echo $e;
 }
-
-echo $result;
